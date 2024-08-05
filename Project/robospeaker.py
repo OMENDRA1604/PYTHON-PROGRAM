@@ -5,7 +5,7 @@ if __name__ == '__main__':
     while (True):
         x = input("Enter what you want me to speak : ")
         if (x=="q"):
-            engine.say('Bye Bye Friend')
+            engine.say('Have a Good day')
             engine.runAndWait()
             break
         engine.say(x)

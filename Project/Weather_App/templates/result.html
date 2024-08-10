@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in {{ city }}</title>
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename=background_image) }}");
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Arial', sans-serif;
+        }
+        .card {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Weather in {{ city }}</h1>
+        <p>The current temperature is <strong>{{ temperature }}°C</strong></p>
+        <p>The weather is currently <strong>{{ condition }}</strong></p>
+        <a href="/" class="btn">Go Back</a>
+    </div>
+</body>
+</html>

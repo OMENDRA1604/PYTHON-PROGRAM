@@ -1,14 +1,3 @@
-'''def greethello(name , ending):
-    print("HELLO  " + name)
-    print(ending)
-
-print("Executing Function .....")
-greethello("Omendra" , "Thank you")
-
-greethello("Shivam","thanks")'''
-
-def lettergenerator(name, date) :
-    st = f"Hi mam ,\nThis is {name} and I will not come to {date} "
-    print(st)
-
-lettergenerator("OMENDRA","16TH MARCH 2024")
+version https://git-lfs.github.com/spec/v1
+oid sha256:2672c5e3693517c2c0d42354c6fed0d6ca10860551cd4339695860cb610c6380
+size 360

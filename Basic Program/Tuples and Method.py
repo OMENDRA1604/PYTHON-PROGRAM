@@ -1,8 +1,3 @@
-# Tuple cannot be changed unlike list becaue tuple is immutable 
-
-t = ( 3 , 5 ,23 ,23 )
-
-# t[0] = 67 This line throws error
-
-print(t.count(5))
-print(t)
+version https://git-lfs.github.com/spec/v1
+oid sha256:0860ccd92dd8e737a8182c8911a841cd31b063d6fc9c0304b0d66f0dbc92cc89
+size 160

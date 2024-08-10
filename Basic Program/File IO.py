@@ -1,10 +1,3 @@
-s = "HARRY is a good boy "
-# Writing to a file
-with open("test.txt","w") as f:
-    f.write(s)
-
-
-# Reading a file 
-with open("test.txt","r") as f:
-    s= f.read()
-    print(s)
+version https://git-lfs.github.com/spec/v1
+oid sha256:42dc85e9fad0b784dea41dcc7d19c5016b1097f715468d57a86fb935094ddcd1
+size 185

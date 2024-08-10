@@ -1,27 +1,3 @@
-# This program prints Hello, world!
-#Comments in Python 
-print('Hello, world!')
-'''
-print('HELLO OMENDRA')
-print('HELLO OMENDRA') #OMENDRA SINGH
-#print('HELLO OMENDRA')
-#print('HELLO OMENDRA')
-#print('HELLO OMENDRA')
-'''
-
-#Variable in Python
-a=3
-print(a)
-b=55
-print(b)
-a=6.2
-print(a)
-e= None
-print(e)
-
-#TYPECASTING
-f="5"
-print( int(f) +1)
-g=5
-print(g+1)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:35a8f2573dd70dd83f9665faeba8e6d84bab887231d5a2103c4e27c84de8399e
+size 382

@@ -1,18 +1,3 @@
-# Strings cannot be changed because string is immutable 
-
-
-name = 'hARRY'
-print(name)
-
-print(name[2:5])
-
-print(name.capitalize())
-print(name.isalnum())
-
-
-Name1 = "Omendra"
-Name2 = 'Omendra' \
-        ' is a good boy'
-Name3 = '''Omendra'''
-
-print(Name1 , Name2 , Name3)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f4f10d8d369cb3e09c5ae09b196fe00edcea506606710408600d094ae489e12
+size 285

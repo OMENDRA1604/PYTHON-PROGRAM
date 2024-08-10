@@ -1,6 +1,3 @@
-
-try:
-    a =int(input("Enter any number : "))
-    print(a+5)
-except Exception as e:
-    print("Some Error Has Occured " , e)
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ac1444c306de84d1646a03e570ea2b4fdfaabfd6f8bd4a85823fc17b59614d4
+size 130

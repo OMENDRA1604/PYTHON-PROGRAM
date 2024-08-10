@@ -1,7 +1,3 @@
-a1 = {3,5,23 ,5,5,5} # It is a set 
-a2 = {4,5,23}
-#a1.clear()
-print(a1.union(a2))
-print (a1)
-print(a2)
-print(a1.pop())
+version https://git-lfs.github.com/spec/v1
+oid sha256:933e75283810bc36c830ed582307dff9f28f6a417e53087f8895807c9918ed59
+size 124
